@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Valve Software">
+  <title>Valve Software</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="top-bar">
+      <img src="imagens/valve.webp" alt="Valve Software Logo" style="max-height: 90px;">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">Tema Claro</button>
+    </header>
+
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#historia">História</a>
+      <a href="#jogos">Jogos</a>
+      <a href="#inovacoes">Inovações</a>
+      <a href="#steam">Steam</a>
+    </nav>
+
+    <main class="main-content">
+      <section>
+        <article id="historia" class="window">
+          <div class="window-header">
+            <div class="window-title">História</div>
+          </div>
+          <div class="window-content">
+            <div class="content-grid">
+              <div>
+                <p><strong>Fundada em 1996</strong> por ex-funcionários da Microsoft, Gabe Newell e Mike Harrington. A Valve nasceu com a ideia de que desenvolvedores devem ter liberdade criativa. O primeiro jogo, <em>Half-Life</em> (1998), mudou a narrativa em FPS ao tirar as cutscenes, a história acontece enquanto você joga.</p>
+                <p>Diferente de estúdios tradicionais, a Valve adotou uma <strong>estrutura plana</strong>: sem chefes, sem hierarquia rígida. Funcionários escolhem em que projetos trabalhar (mesas com rodinhas no escritório simbolizam essa mobilidade). Essa cultura gerou inovações como Steam, Source Engine, Steam Deck e jogos que definem gêneros.</p>
+              </div>
+              <figure>
+                <img src="https://media.officesnapshots.com/wp-content/uploads/2012/02/39_Valve01.jpg" alt="Sede da Valve em Bellevue, Washington" loading="lazy">
+              </figure>
+            </div>
+          </div>
+        </article>
+
+        <article id="jogos" class="window">
+          <div class="window-header">
+            <div class="window-title">Jogos que Mudaram a Indústria</div>
+          </div>
+          <div class="window-content">
+            <ul class="games-list">
+              <li><strong>Half-Life (1998)</strong><span>Narrativa integrada ao gameplay, IA avançada, física realista</span></li>
+              <li><strong>Counter-Strike (2000)</strong><span>De mod a fenômeno competitivo, definiu o FPS tático moderno</span></li>
+              <li><strong>Portal (2007)</strong><span>Puzzle-platformer inovador, "The Cake is a Lie" virou meme cultural</span></li>
+              <li><strong>Team Fortress 2 (2007)</strong><span>Pioneiro no modelo free-to-play e economia de itens cosméticos</span></li>
+              <li><strong>Dota 2 (2013)</strong><span>Referência em eSports, The International com maiores prêmios da história</span></li>
+              <li><strong>Half-Life: Alyx (2020)</strong><span>VR AAA feita do zero, mostrou o potencial real da realidade virtual</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <article id="inovacoes" class="window">
+          <div class="window-header">
+            <div class="window-title">Inovações Técnicas</div>
+          </div>
+          <div class="window-content">
+            <div class="innovations-grid">
+              <article class="innovation-card">
+                <h3>Source Engine</h3>
+                <p>Engine modular (desde 2004) com física Havok, shaders avançados, ferramentas de autoramento (Hammer). Base para dezenas de jogos e mods.</p>
+              </article>
+              <article class="innovation-card">
+                <h3>Steamworks API</h3>
+                <p>Matchmaking, conquistas, Workshop (mods), anti-cheat, rede social — grátis para devs. Democratizou a distribuição no PC.</p>
+              </article>
+              <article class="innovation-card">
+                <h3>Proton / Steam Deck</h3>
+                <p>Camada de compatibilidade (Wine + DXVK) rodando jogos Windows no Linux. Steam Deck: PC portátil com Arch Linux + KDE.</p>
+              </article>
+              <article class="innovation-card">
+                <h3>OpenVR / SteamVR</h3>
+                <p>API aberta para headsets VR. Valve Index: 144Hz, finger tracking, áudio off-ear. Empurrou a indústria para frente.</p>
+              </article>
+            </div>
+          </div>
+        </article>
+
+        <article id="steam" class="window">
+          <div class="window-header">
+            <div class="window-title">Steam: A Maior Loja de Jogos do PC</div>
+          </div>
+          <div class="window-content">
+            <div class="content-grid">
+              <div>
+                <p>Lançado em <strong>2003</strong> como atualizador automático de Counter-Strike 1.6, o Steam virou a plataforma dominante de distribuição digital: <strong>130+ milhões de usuários ativos</strong>, <strong>50.000+ jogos</strong>, suporte a Linux, macOS, Windows, Steam Deck.</p>
+                <p>Recursos que mudaram o mercado: <em>Steam Workshop</em> (mods com um clique), <em>Family Sharing</em>, <em>Remote Play Together</em> (co-op local pela internet), <em>Steam Input</em> (qualquer controle funciona em qualquer jogo), <em>Proton</em> (jogos Windows no Linux).</p>
+              </div>
+              <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Steam_Deck_%28front%29.jpg" alt="Steam Deck OLED rodando jogo" loading="lazy">
+              </figure>
+            </div>
+            <div class="cta">
+              <a href="https://store.steampowered.com/" target="_blank" rel="noopener noreferrer" class="btn">Acessar Steam →</a>
+            </div>
+          </div>
+        </article>
+
+      </section>
+      <aside class="sidebar">
+        <article class="window">
+          <div class="window-header">
+            <div class="window-title">Criadores</div>
+          </div>
+          <div class="window-content" style="text-align: center; padding-bottom: var(--s2);">
+            <p style="margin-bottom: var(--s2);">Quer contribuir?</p>
+            <a href="https://github.com/ValveSoftware" target="_blank" rel="noopener" class="btn">GitHub Valve</a>
+          </div>
+          <div class="window-content">
+            <div class="creator-grid">
+              <div class="creator-card">
+                <img src="imagens/SANGUEJOVEM.png" alt="SANGUEJOVEM" class="creator-avatar" loading="lazy">
+                <p class="creator-name"><strong>SANGUEJOVEM</strong></p>
+              </div>
+              <div class="creator-card">
+                <img src="imagens/CHOCOBOOL.png" alt="CHOCOBOOL" class="creator-avatar" loading="lazy">
+                <p class="creator-name"><strong>CHOCOBOOL</strong></p>
+              </div>
+              <div class="creator-card">
+                <img src="imagens/32MIT.png" alt="32MIT" class="creator-avatar" loading="lazy">
+                <p class="creator-name"><strong>32MIT</strong></p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </aside>
+
+    </main>
+
+    <footer class="footer">
+      <p>Feito por Thiago Moreira, Matheus Neves e Pietro Amado</p>
+      <p><a href="https://www.valvesoftware.com/" target="_blank" rel="noopener">valvesoftware.com</a> | <a href="https://store.steampowered.com/" target="_blank" rel="noopener">store.steampowered.com</a></p>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
